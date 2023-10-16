@@ -1,18 +1,3 @@
-/////////////////////////////////////////////////////////////////////////////////////////
-// INTEGRITY STATEMENT (v4)
-//
-// By signing your name and ID below you are stating that you have agreed
-// to the online academic integrity statement posted on edX:
-// (Course > Assignments > Assignment Information & Policies > Academic Integrity Policy)
-/////////////////////////////////////////////////////////////////////////////////////////
-// I received help from and/or collaborated with: none
-
-// 
-//
-// Name: Krish Khasnobish
-// login ID: kkhasnob
-//////////////////////////////////////////////////////////////////////////////////////////
-
 #include <assert.h>
 #include <stdio.h>
 #include "shell-sort.h"
@@ -36,6 +21,10 @@ static void array_print(const int *arr, int len) {
 
 // === MODULE FUNCTIONS =======================================================
 
+// shell_sort(arr, len) sorts the array arr in ascending order.
+// requires: len must be positive
+// effects:  mutates arr[]
+// time:     O(n^2)
 void shell_sort(int arr[], int len) {
   assert(arr);
   assert(len > 0);
