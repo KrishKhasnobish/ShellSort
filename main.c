@@ -4,8 +4,6 @@
 #include "shell-sort.h"
 #include "cs136-trace.h"
 
-// === THERE IS NO NEED TO MODIFY THE MAIN FUNCTION ===========================
-
 // The program accepts the following commands:
 // * ARRAY [<value:int>, ...]
 //   Stores up to 1000 values in an array
